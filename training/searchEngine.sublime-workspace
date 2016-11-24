@@ -1,0 +1,513 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"get",
+				"getAllLinks"
+			],
+			[
+				"in",
+				"interface"
+			],
+			[
+				"cr",
+				"crawlOneDmain"
+			],
+			[
+				"st",
+				"stack"
+			],
+			[
+				"f",
+				"first"
+			],
+			[
+				"rom",
+				"romString"
+			],
+			[
+				"nu",
+				"num"
+			],
+			[
+				"hu",
+				"houndredindex"
+			],
+			[
+				"te",
+				"tenindex"
+			],
+			[
+				"app",
+				"appendMessageToWindow"
+			],
+			[
+				"send",
+				"sendMessage"
+			],
+			[
+				"api",
+				"api_url"
+			],
+			[
+				"cnv",
+				"conversation_api"
+			],
+			[
+				"conv",
+				"conversation_api"
+			],
+			[
+				"se",
+				"session_id"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"ar",
+				"array"
+			],
+			[
+				"fo",
+				"foreach\tforeach …"
+			],
+			[
+				"key",
+				"keyword"
+			],
+			[
+				"user",
+				"userlocation"
+			],
+			[
+				"ma",
+				"mapCenterParas"
+			],
+			[
+				"inpu",
+				"inputSearch"
+			],
+			[
+				"tex",
+				"textSearch"
+			],
+			[
+				"re",
+				"results"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"check",
+				"checkUrlStatus"
+			],
+			[
+				"log",
+				"Logged"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"Ses",
+				"session_id"
+			],
+			[
+				"sessio",
+				"session_start"
+			],
+			[
+				"_",
+				"_SESSION"
+			],
+			[
+				"req",
+				"request"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 120.0,
+		"history":
+		[
+			"ls",
+			"node",
+			"ls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/brucelau/workbench/searchEngine"
+	],
+	"file_history":
+	[
+		"/home/brucelau/workbench/familydoctor/gulpfile.js",
+		"/home/brucelau/workbench/familydoctor/ui/css/familydoctory.css",
+		"/home/brucelau/workbench/familydoctor/ui/index.html",
+		"/home/brucelau/workbench/familydoctor/ui/js/fd.js",
+		"/home/brucelau/workbench/familydoctor/.env",
+		"/home/brucelau/workbench/familydoctor/ui/index_back.html",
+		"/home/brucelau/workbench/familydoctor/README.md",
+		"/home/brucelau/workbench/familydoctor/app.js",
+		"/home/brucelau/workbench/familydoctor/ui/js/fdAPI.js",
+		"/home/brucelau/workbench/familydoctor/ui/ibm/fb-stt.js",
+		"/home/brucelau/workbench/familydoctor/package.json",
+		"/home/brucelau/workbench/familydoctor/npm-debug.log",
+		"/home/brucelau/workbench/familydoctor/dist/vendor.min.js",
+		"/home/brucelau/workbench/familydoctor/ui/js/conversation.js",
+		"/home/brucelau/workbench/familydoctor/ui/ibm/text-to-speech.js",
+		"/home/brucelau/workbench/familydoctor/ui/ibm/speech-to-text.js",
+		"/home/brucelau/workbench/familydoctor/ui/ibm/fb-tts.js",
+		"/home/brucelau/workbench/familydoctor/ui/js/api.js",
+		"/home/brucelau/workbench/familydoctor/speech/stt-token.js",
+		"/home/brucelau/workbench/familydoctor/speech/tts-token.js",
+		"/home/brucelau/workbench/familydoctor/ui/app.js",
+		"/home/brucelau/workbench/aseproject/familyDoctor/.env",
+		"/home/brucelau/workbench/aseproject/familyDoctor/README.md",
+		"/home/brucelau/workbench/aseproject/car-dashboard/gulpfile.js",
+		"/home/brucelau/workbench/aseproject/car-dashboard/ui/js/fd.js",
+		"/home/brucelau/workbench/aseproject/car-dashboard/ui/index.html",
+		"/home/brucelau/workbench/aseproject/car-dashboard/ui/css/main.css",
+		"/home/brucelau/workbench/aseproject/car-dashboard/ui/css/familydoctory.css",
+		"/home/brucelau/workbench/aseproject/car-dashboard/ui/js/fdAPI.js",
+		"/home/brucelau/workbench/tmp/test.js",
+		"/home/brucelau/workbench/tmp/pigLatin.js",
+		"/home/brucelau/workbench/tmp/pairDNA.js",
+		"/home/brucelau/workbench/tmp/fearNotLetter.js",
+		"/home/brucelau/workbench/tmp/whatInName.js",
+		"/home/brucelau/workbench/tmp/myReplacement.js",
+		"/home/brucelau/.config/sublime-text-3/Packages/ESLint/ESLint.sublime-settings",
+		"/home/brucelau/workbench/aseproject/car-dashboard/.env",
+		"/home/brucelau/workbench/aseproject/car-dashboard/ui/newUIindex.html",
+		"/home/brucelau/workbench/aseproject/car-dashboard/ui/ibm/fb-tts.js",
+		"/home/brucelau/workbench/aseproject/car-dashboard/speech/tts-token.js",
+		"/home/brucelau/workbench/aseproject/car-dashboard/ui/ibm/text-to-speech.js",
+		"/home/brucelau/workbench/aseproject/car-dashboard/training/car_workspace.json",
+		"/home/brucelau/workbench/aseproject/car-dashboard/training/fb-training.csv",
+		"/home/brucelau/Downloads/workspace-4a644743-968b-4269-9ab5-03c7d72e7f0d(1).json",
+		"/home/brucelau/workbench/aseproject/car-dashboard/ui/js/conversation.js",
+		"/home/brucelau/workbench/aseproject/car-dashboard/ui/ibm/watson-speech.min.js",
+		"/home/brucelau/workbench/aseproject/car-dashboard/ui/js/global.js",
+		"/home/brucelau/workbench/aseproject/car-dashboard/app.js",
+		"/home/brucelau/workbench/aseproject/car-dashboard/ui/js/common.js",
+		"/home/brucelau/workbench/aseproject/car-dashboard/ui/js/api.js",
+		"/home/brucelau/workbench/aseproject/car-dashboard/ui/js/libs/snap.svg.js",
+		"/home/brucelau/workbench/aseproject/car-dashboard/ui/js/bootstrap.min.js",
+		"/home/brucelau/workbench/aseproject/car-dashboard/ui/js/bootstrap.js",
+		"/run/user/1000/gvfs/sftp:host=myweb.cs.uwindsor.ca/public_html/lab8/autoComplete.php",
+		"/run/user/1000/gvfs/sftp:host=myweb.cs.uwindsor.ca/public_html/lab8/map.php",
+		"/home/brucelau/workbench/aseproject/car-dashboard/dist/vendor.min.js",
+		"/home/brucelau/workbench/aseproject/car-dashboard/dist/dashboard.min.js",
+		"/home/brucelau/workbench/aseproject/car-dashboard/ui/js/tooltip-dialogs.js",
+		"/home/brucelau/workbench/aseproject/car-dashboard/ui/js/conversationResponse.js",
+		"/home/brucelau/workbench/aseproject/car-dashboard/node_modules/watson-developer-cloud/auth.js.enc",
+		"/home/brucelau/workbench/aseproject/car-dashboard/server.js",
+		"/home/brucelau/workbench/aseproject/car-dashboard/node_modules/watson-developer-cloud/package.json",
+		"/run/user/1000/gvfs/sftp:host=myweb.cs.uwindsor.ca/public_html/lab8/facebook-login-button.php",
+		"/run/user/1000/gvfs/sftp:host=myweb.cs.uwindsor.ca/public_html/lab8/login.php",
+		"/run/user/1000/gvfs/sftp:host=myweb.cs.uwindsor.ca/public_html/lab8/fb-callback.php",
+		"/home/brucelau/workbench/ASELab8/test.php_sample",
+		"/home/brucelau/workbench/ASELab8/placeDetail.php",
+		"/home/brucelau/workbench/ASELab8/placeDetail.php_sample",
+		"/home/brucelau/workbench/ASELab8/map.php_sample",
+		"/home/brucelau/workbench/ASELab8/autoComplete.php",
+		"/home/brucelau/workbench/ASELab8/autoComplete.php_sample",
+		"/home/brucelau/workbench/ASELab8/map.php",
+		"/home/brucelau/workbench/ASELab8/facebook-login-button.php",
+		"/home/brucelau/workbench/ASELab8/test.php",
+		"/home/brucelau/workbench/ASELab8/js/googlePlaceAPI.js",
+		"/home/brucelau/workbench/ASELab8/js/main.js",
+		"/home/brucelau/workbench/ASELab8/fb-callback.php",
+		"/home/brucelau/workbench/ASELab8/inc/auth.php",
+		"/home/brucelau/workbench/ASELab8/index.php",
+		"/home/brucelau/workbench/ASELab8/jquery-ui/index.html",
+		"/home/brucelau/workbench/ASELab8/jquery-ui/jquery-ui.js",
+		"/home/brucelau/Downloads/jquery-ui-themes-1.12.1/jquery-ui.css",
+		"/home/brucelau/workbench/ASELab8/js/jquery-ui.js",
+		"/home/brucelau/workbench/ASELab8/js/logger.js",
+		"/home/brucelau/workbench/ASELab8/vendor/facebook/graph-sdk/src/Facebook/Facebook.php",
+		"/run/user/1000/gvfs/sftp:host=myweb.cs.uwindsor.ca/public_html/lab8/index.php",
+		"/home/brucelau/Downloads/jquery-ui-themes-1.12.1/jquery-ui.structure.min.css",
+		"/home/brucelau/Downloads/jquery-ui-themes-1.12.1/jquery-ui.theme.css",
+		"/home/brucelau/workbench/ASELab8/fblogin.php",
+		"/home/brucelau/workbench/ASELab8/js/examples/map.html",
+		"/home/brucelau/workbench/ASELab8/js/jquery.geocomplete.js",
+		"/home/brucelau/workbench/ASELab8/bower_components/EasyAutocomplete/dist/jquery.easy-autocomplete.js",
+		"/home/brucelau/workbench/ASELab8/js/jquery.googlemap.js",
+		"/home/brucelau/workbench/ASELab8/js/examples/simple.html",
+		"/home/brucelau/workbench/ASELab8/userProfiles.php",
+		"/home/brucelau/workbench/ASELab8/inc/common.php",
+		"/home/brucelau/workbench/ASELab8/facebooklogin.html",
+		"/home/brucelau/workbench/ASELab8/css/map.css",
+		"/run/user/1000/gvfs/sftp:host=myweb.cs.uwindsor.ca/public_html/hhaccessibility/javascripts/hhaccessibility.js",
+		"/home/brucelau/workbench/ASELab8/MACLab/vendor/facebook/graph-sdk/src/Facebook/Helpers/FacebookRedirectLoginHelper.php",
+		"/home/brucelau/workbench/ASELab8/vendor/facebook/graph-sdk/src/Facebook/Helpers/FacebookRedirectLoginHelper.php",
+		"/home/brucelau/workbench/ASELab8/testDriver.php",
+		"/home/brucelau/workbench/ASELab8/MACLab/vendor/facebook/graph-sdk/src/Facebook/Authentication/OAuth2Client.php",
+		"/home/brucelau/workbench/ASELab8/MACLab/vendor/facebook/graph-sdk/src/Facebook/Facebook.php",
+		"/home/brucelau/workbench/ASELab8/login.php",
+		"/home/brucelau/workbench/ASELab8/vendor/facebook/graph-sdk/src/Facebook/PersistentData/FacebookSessionPersistentDataHandler.php",
+		"/home/brucelau/workbench/ASELab8/vendor/facebook/graph-sdk/src/Facebook/PersistentData/PersistentDataFactory.php",
+		"/home/brucelau/workbench/ASELab8/MACLab/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php",
+		"/home/brucelau/workbench/ASELab8/MACLab/vendor/facebook/graph-sdk/src/Facebook/PersistentData/FacebookSessionPersistentDataHandler.php",
+		"/home/brucelau/workbench/ASELab8/login.html",
+		"/home/brucelau/workbench/ASELab8/MACLab/vendor/facebook/graph-sdk/src/Facebook/Exceptions/FacebookSDKException.php",
+		"/home/brucelau/workbench/ASELab8/vendor/facebook/graph-sdk/src/Facebook/Exceptions/FacebookSDKException.php",
+		"/home/brucelau/workbench/ASELab8/common.php",
+		"/home/brucelau/workbench/ASELab8/index_backup.php",
+		"/home/brucelau/bin/lamp/htdocs/index.php",
+		"/home/brucelau/workbench/ASELab8/Facebook/Facebook.php",
+		"/home/brucelau/workbench/ASELab8/vendor/facebook/graph-sdk/src/Facebook/polyfills.php",
+		"/home/brucelau/workbench/ASELab8/vendor/facebook/graph-sdk/src/Facebook/PersistentData/PersistentDataInterface.php",
+		"/home/brucelau/workbench/ASELab8/vendor/facebook/graph-sdk/src/Facebook/autoload.php",
+		"/home/brucelau/workbench/ASELab8/facebookgithub/php-graph-sdk/tests/FacebookTest.php",
+		"/home/brucelau/workbench/ASELab8/css/signin.css",
+		"/home/brucelau/workbench/ASELab8/js/FB-SDK.js",
+		"/home/brucelau/workbench/ASELab8/js/init.js",
+		"/home/brucelau/workbench/ASELab8/facebookgithub/php-graph-sdk/tests/Authentication/OAuth2ClientTest.php",
+		"/home/brucelau/workbench/ASELab8/facebookgithub/php-graph-sdk/tests/FacebookTestCredentials.php",
+		"/home/brucelau/workbench/ASELab8/facebookgithub/php-graph-sdk/tests/FacebookAppTest.php",
+		"/opt/lampp/htdocs/index.php",
+		"/home/brucelau/workbench/ASELab8/facebookgithub/php-graph-sdk/tests/SignedRequestTest.php"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"index.html",
+			"*.js",
+			"/home/brucelau/workbench/aseproject/car-dashboard/ui/js",
+			"/home/brucelau/workbench/aseproject/car-dashboard/ui",
+			"/home/brucelau/workbench/aseproject/car-dashboard/ui/js",
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"    ",
+			" ",
+			"   ",
+			"Adult Symptoms",
+			"    ",
+			"                   ",
+			"SoundButton",
+			"dialogue",
+			"allowSTT",
+			"speechToText",
+			"car_logs",
+			");\n",
+			"\",\"",
+			"js",
+			"  ",
+			"0",
+			"\\s",
+			"(\\w+)",
+			"node_11_1467233815579",
+			"node_19_1467234523021",
+			"log",
+			"button",
+			"output-audio",
+			"TTSModule",
+			"initEnterSubmit",
+			"tt",
+			"context",
+			"setWatsonPayload",
+			"currentResponsePayloadSetter",
+			"currentRequestPayloadSetter",
+			"Api",
+			"getWatsonPayload",
+			"LOG_PASS",
+			"buildDomElementFromJson",
+			"key",
+			"localhost.com",
+			"nav",
+			"item.value",
+			"previous",
+			"change",
+			"val",
+			"val(",
+			"renderItem",
+			"json",
+			".data('googleBound')",
+			"var map",
+			"geocodeAsync",
+			"$that",
+			"$this",
+			"google.maps.Marker",
+			"geocodeAsync",
+			"that",
+			"googleBound",
+			"LatLngBounds",
+			"geocodeAsync",
+			"address",
+			"  \t\t\t<",
+			"document.getElementById('",
+			"modes"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"TriggeredOrWorsenedBy,",
+			"pain,",
+			"",
+			"ChildrenSymptoms,",
+			"AdultSymptoms",
+			"Adult Symptoms,",
+			"fd_logs",
+			"fd_log",
+			"",
+			"\"\\1\",",
+			"res",
+			"$('#"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "searchEngine.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 228.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

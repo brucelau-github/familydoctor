@@ -1,11 +1,17 @@
+body {
+  background: url(../images/bg.jpg) no-repeat center center scroll;
+}
+.apptitle {
+  font-weight: 800;
+  color: white;
+  text-shadow: inherit;
+
+}
 .chat
 {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-.banner {
-  background-image:url(../images/banner.jpg);
 }
 
 .chat li
