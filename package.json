@@ -1,6 +1,6 @@
 {
-  "name": "family Doctor app",
-  "version": "0.2.1",
+  "name": "conversation-familydoctor",
+  "version": "0.0.1",
   "private": true,
   "main": "server.js",
   "scripts": {

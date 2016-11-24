@@ -50,8 +50,8 @@
             // TODO re-add with caching 
             //.pipe(sourcemaps.write('./maps'))
             // Commenting out lines that don't work with latest version of Node
-            // .pipe($.if('*.js', $.if('**/fd.min.js', $.uglify({mangle: false, preserveComments: 'license'}), $.uglify())))
-            //.pipe($.if('*.css', $.cleanCss()))
+            .pipe($.if('*.js', $.if('**/fd.min.js', $.uglify({mangle: false, preserveComments: 'license'}), $.uglify())))
+            .pipe($.if('*.css', $.cleanCss()))
             .pipe(gulp.dest(appProd))
             .pipe($.size({ 'title': 'html' }));
     });

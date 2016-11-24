@@ -78,7 +78,6 @@ var STTModule = (function() {
             recording = false;  
             if (data.length !== 0) {                    // If data is not empty (the user said something)
               var dialogue = data.pop();                // Get the last data variable from the data array, which will be the finalized Speech-To-Text transcript
-            	console.log(dialogue);                   // We aren't recording anymore
               if ((dialogue.alternatives[0].transcript !== '') && (dialogue.final === true)) { // Another check to verify that the transcript is not empty and that this is the final dialog
                 sendMessage();             // Send the message to Watson Conversation
               }

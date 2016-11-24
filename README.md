@@ -1,31 +1,13 @@
-# Conversation Car Dashboard Demo Application
-[![Build Status](https://travis-ci.org/watson-developer-cloud/car-dashboard.svg?branch=master)](http://travis-ci.org/watson-developer-cloud/car-dashboard)
-[![codecov.io](https://codecov.io/github/watson-developer-cloud/conversation-simple/coverage.svg?branch=master)](https://codecov.io/github/watson-developer-cloud/car-dashboard?branch=master)
 
-
-This application demonstrates how the Conversation service uses intent capabilities in an animated car dashboard UI.
-
-For more information about Conversation, see the [detailed documentation](http://www.ibm.com/watson/developercloud/doc/conversation/index.shtml).
-
-[See the demo](http://conversation-demo.mybluemix.net/).
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="readme_images/bluemix.png" width="200"/>](#bluemix)     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="readme_images/local.png" width="200"/>](#local)
 
 ## How the app works
-The app interface is designed and trained for chatting with a cognitive car. The interface allows the user to enter input either 
-using text, in the edit field at the bottom of the UI or via speech via by pressing the mic button. 
-Your questions and commands are run against a
-small set of sample data trained with intents like these:
+The app interface is designed and trained for chatting with a family doctor. The interface allows the user to enter input either using text, in the edit field at the bottom of the UI or via speech via by pressing the mic button. 
+Your questions and commands are run against a small set of sample data trained with intents like these:
 
 These intents help the system to understand variations of questions and commands that you might submit.
 For example, if you say *"Wipers on"* or *"I want to turn on the windshield wipers"*, the system
 understands that in both cases your intent is the same and responds accordingly.
 
-<a name="bluemix">
-# Getting Started using Bluemix
-</a>
-
-![](readme_images/Deploy on Bluemix - simple app.png)
 
 ## Before you begin
 1 Ensure that you have a [Bluemix account](https://console.ng.bluemix.net/registration/).
@@ -65,46 +47,6 @@ understands that in both cases your intent is the same and responds accordingly.
 ## Using Cloudfoundry CLI tool to deploy your application
 </a>
 
-To build the application:
-
-1 Download and install the [Cloudfoundry CLI](https://github.com/cloudfoundry/cli) tool.
-
-2 Git clone the project `https://github.com/watson-developer-cloud/car-dashboard`
-
-3 Navigate to the `car-dashboard` folder
-
-4 Connect to Bluemix in the command-line tool:
-
- For US Region
-
- ```sh
-
- $ cf api https://api.ng.bluemix.net
-
- ```
-
- ```sh
-
- $ cf login -u <your user ID>
-
- ```
-
-5 Create the Conversation service in Bluemix:
-
- ```sh
-
- $ cf create-service conversation free conversation-service
-
- ```
-
-6 Push it live:
-
- ```sh
-
- $ cf push <application-name>
-
- ``` 
- The name you use determinates your application URL initially, such as `<application-name>.mybluemix.net`.
 
 <a name="local">
 # Getting Started locally
@@ -247,9 +189,3 @@ $ cf logs < application-name > --recent
 # Contributing
 
   See [CONTRIBUTING](CONTRIBUTING.md).
-
-
-## Open Source @ IBM
-
-  Find more open source projects on the
-  [IBM Github Page](http://ibm.github.io/).

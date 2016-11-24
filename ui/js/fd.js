@@ -24,12 +24,14 @@ function bindSendButtonEvent(){
     $("#btn-input").val('');
   });
    $("#SoundButton").on("click",function(){
-    if(muted) {
+    if(!muted) {
       $(this).html('<span class="glyphicon glyphicon-volume-off"></span>muted');
+      Api.setWatsonPayload({output: {text: ['speaker on!']}});
       muted = false;
     }
     else {
       $(this).html('<span class="glyphicon glyphicon-volume-up"></span>sound');
+      Api.setWatsonPayload({output: {text: ['speaker off!']}});
       muted = true;
     }
    });
