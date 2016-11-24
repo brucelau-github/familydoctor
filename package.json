@@ -1,6 +1,6 @@
 {
-  "name": "conversation-car-dashboard",
-  "version": "0.0.1",
+  "name": "family Doctor app",
+  "version": "0.2.1",
   "private": true,
   "main": "server.js",
   "scripts": {
