@@ -34,4 +34,10 @@ var TTSModule = (function() {
           }
       });
   }
+  //// Check ref for 'STT' and allow user to use STT
+  function allowSTT(payload) {
+    if (payload.ref === 'STT') {
+      STTModule.speechToText();
+    }
+  }
 })();

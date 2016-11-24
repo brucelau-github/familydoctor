@@ -36,7 +36,7 @@ var STTModule = (function() {
     // Check if browser supports speech
     if (!(navigator.getUserMedia || navigator.webkitGetUserMedia ||
               navigator.mozGetUserMedia || navigator.msGetUserMedia)) {
-      Common.hide(mic);
+       alert("your browser does not support speech to text service!");
     }
   }
 
@@ -46,7 +46,8 @@ var STTModule = (function() {
         Api.setWatsonPayload({output: {text: ['Accept the microphone prompt in your browser. Watson will listen soon.'], ref: 'STT'}}); // Dialog box output to let the user know we're recording
         records++;
       } else {
-        Api.setWatsonPayload({output: {ref: 'STT'}}); // Let the user record right away
+        // Api.setWatsonPayload({output: {ref: 'STT'}}); // Let the user record right away
+        speechToText();
       }
     } else {
       recording = false;
@@ -65,8 +66,8 @@ var STTModule = (function() {
         stream = WatsonSpeech.SpeechToText.recognizeMicrophone({
           token: token,                       // Authorization token to use this service, configured from /speech/stt-token.js file
           continuous: false,                  // False = automatically stop transcription the first time a pause is detected
-          outputElement: '#user-input',       // CSS selector or DOM Element
-          inactivity_timeout: 5,              // Number of seconds to wait before closing input stream
+          outputElement: '#btn-input',       // CSS selector or DOM Element
+          inactivity_timeout: 10,              // Number of seconds to wait before closing input stream
           format: false,                      // Inhibits errors
           keepMicrophone: true                // Avoids repeated permissions prompts in FireFox
         });
@@ -74,18 +75,19 @@ var STTModule = (function() {
         stream.promise()                                // Once all data has been processed...
           .then(function(data) {                        // ...put all of it into a single array
             mic.setAttribute('class', 'inactive-mic');  // Reset our microphone button to visually indicate we aren't listening to user anymore
-            recording = false;                          // We aren't recording anymore
+            recording = false;  
             if (data.length !== 0) {                    // If data is not empty (the user said something)
               var dialogue = data.pop();                // Get the last data variable from the data array, which will be the finalized Speech-To-Text transcript
+            	console.log(dialogue);                   // We aren't recording anymore
               if ((dialogue.alternatives[0].transcript !== '') && (dialogue.final === true)) { // Another check to verify that the transcript is not empty and that this is the final dialog
-                Conversation.sendMessage();             // Send the message to Watson Conversation
+                sendMessage();             // Send the message to Watson Conversation
               }
             } else { // If there isn't any data to be handled by the conversation, display a message to the user letting them know
               Api.setWatsonPayload({output: {text: ['Microphone input cancelled. Please press the button to speak to Watson again']}}); // If the user clicked the microphone button again to cancel current input
             }
           })
           .catch(function(err) { // Catch any errors made during the promise
-            if (err !== 'Error: No speech detected for 5s.') { // This error will always occur when Speech-To-Text times out, so don't log it (but log everything else)
+            if (err !== 'Error: No speech detected for 10s.') { // This error will always occur when Speech-To-Text times out, so don't log it (but log everything else)
               console.log(err);
             }
             mic.setAttribute('class', 'inactive-mic'); // Reset our microphone button to visually indicate we aren't listening to user anymore

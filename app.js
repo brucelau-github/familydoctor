@@ -115,21 +115,21 @@ if ( cloudantUrl ) {
   //If the cloudantUrl has been configured then we will want to set up a nano client
   var nano = require ( 'nano' ) ( cloudantUrl );
   //add a new API which allows us to retrieve the logs (note this is not secure)
-  nano.db.get ( 'car_logs', function (err, body) {
+  nano.db.get ( 'fd_logs', function (err, body) {
     if ( err ) {
-      nano.db.create ( 'car_logs', function (err, body) {
-        logs = nano.db.use ( 'car_logs' );
+      nano.db.create ( 'fd_logs', function (err, body) {
+        logs = nano.db.use ( 'fd_logs' );
       } );
     } else {
-      logs = nano.db.use ( 'car_logs' );
+      logs = nano.db.use ( 'fd_logs' );
     }
   } );
 
   //Endpoint which allows deletion of db
   app.post ( '/clearDb', auth, function (req, res) {
-    nano.db.destroy ( 'car_logs', function () {
-      nano.db.create ( 'car_logs', function () {
-        logs = nano.db.use ( 'car_logs' );
+    nano.db.destroy ( 'fd_logs', function () {
+      nano.db.create ( 'fd_logs', function () {
+        logs = nano.db.use ( 'fd_logs' );
       } );
     } );
     return res.json ( {"message": "Clearing db"} );

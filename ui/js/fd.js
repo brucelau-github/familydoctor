@@ -47,6 +47,7 @@ function sendMessage(newText) {
   }
   appendMessageToWindow(text);
   Api.postConversationMessage(text);
+ $("#btn-input").val("");
 }
 
 function appendMessageToWindow(text){

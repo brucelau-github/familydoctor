@@ -38,7 +38,7 @@ var Api = (function() {
     if (context) {
       data.context = context;
     }
-    console.log(context);
+    // console.log(context);
     Api.setUserPayload(data);
     var http = new XMLHttpRequest();
     http.open('POST', messageEndpoint, true);

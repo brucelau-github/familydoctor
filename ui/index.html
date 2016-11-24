@@ -44,6 +44,12 @@
           </div>
           <div class="panel-footer">
             <div class="input-group">
+            <span class="input-group-btn">
+            <div id="input-mic-holder">
+                    <div id="input-mic" class="inactive-mic" onclick="STTModule.micON()"></div>
+            </div>
+            </span>
+              
               <input id="btn-input" type="text" class="form-control input-sm" placeholder="Type your message here...">
               <span class="input-group-btn">
                 <button class="btn btn-warning btn-sm" id="btn-chat">
@@ -63,6 +69,7 @@
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="ibm/watson-speech.min.js"></script>
+    <script src="ibm/fb-stt.js"></script>
     <script src="ibm/fb-tts.js"></script>
     <script src="js/fdAPI.js"></script>
     <script src="js/fd.js"></script>
