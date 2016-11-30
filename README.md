@@ -1,4 +1,7 @@
 
+find the demo <a href="http://familydoc.mybluemix.net/">demo</a>
+![](readme_images/demo.PNG)
+
 
 ## How the app works
 The app interface is designed and trained for chatting with a family doctor. The interface allows the user to enter input either using text, in the edit field at the bottom of the UI or via speech via by pressing the mic button. 
