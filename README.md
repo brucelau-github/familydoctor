@@ -1,6 +1,6 @@
 
 find the demo <a href="http://familydoc.mybluemix.net/">demo</a>
-![](readme_images/demo.PNG)
+![](readme_images/demo.png)
 
 
 ## How the app works
