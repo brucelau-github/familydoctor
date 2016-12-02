@@ -10,7 +10,7 @@
     "postinstall": "gulp build-html",
     "watch": "gulp server:watch"
   },
-  "author": "IBM Corp.",
+  "author": "Jianye Liu",
   "dependencies": {
     "body-parser": "1.15.1",
     "basic-auth-connect": "1.0.0",
